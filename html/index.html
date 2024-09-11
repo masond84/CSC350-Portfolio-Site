@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Site</title>
+        <!-- Tailwind CSS via CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    
+    <body class="bg-blue-100">
+        <!-- NavBar -->
+        <header class="w-full fixed top-0 left-0 bg-white bg-opacity-70 border-b border-gray-300 z-20">
+            <nav class="container mx-auto flex justify-center items-center p-4">
+                <!-- Centered Navigation Menu -->
+                <div class="flex justify-center items-center space-x-8">
+                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">Home</a>
+                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">About</a>
+                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">Projects</a>
+                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">Contact</a>
+                </div>
+            </nav>
+        </header>
+        
+
+        <!-- Hero Section -->
+        <section class="relative bg-gray-200 h-screen flex flex-col justify-center items-center">
+            <img src="../images/Landing-Hero.jpeg" alt="Profile Picture" class="absolute inset-0 w-full h-full object-cover opacity-50 z-0">
+            <div class="z-10 text-center text-white">
+                <h1 class="text-5xl font-bold">Hello, My Name Is</h1>
+                <h2 class="text-6xl font-bold text-blue-400 mt-2">Emily Anderson</h2>
+                <p class="text-xl mt-4">And This Is My Resume</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="bg-gray-900 text-white py-20">
+            <div class="container mx-auto text-center px-6 md:px-12">
+                <!-- Section Heading -->
+                <h2 class="text-4xl font-bold mb-4">Get To Know A Bit About Me</h2>
+                <p class="text-lg max-w-2xl mx-auto mb-12">
+                    Hi! I'm Emily Anderson, a Front-End Web Developer passionate about creating intuitive and user-friendly websites. With 10 years of experience in HTML, CSS, JavaScript, and React, I strive to turn creative ideas into responsive and visually appealing web designs.
+                </p>
+                
+                <!-- Cards Section -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                    <!-- Card 1: Resume -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <img src="../images/approved.png" alt="Resume Icon" class="mx-auto mb-4 w-14 h-14">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">My Resume</h3>
+                        <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
+                    </div>
+                    
+                    <!-- Card 2: LinkedIn -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <img src="../images/linkedin.png" alt="LinkedIn Icon" class="mx-auto mb-4 w-14 h-14">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">My LinkedIn</h3>
+                        <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
+                    </div>
+                    
+                    <!-- Card 3: GitHub -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <img src="../images/github.png" alt="GitHub Icon" class="mx-auto mb-4 w-14 h-14">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">My GitHub</h3>
+                        <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
+                    </div>
+                    
+                    <!-- Card 4: More About Me -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <img src="../images/info.png" alt="More Info Icon" class="mx-auto mb-4 w-14 h-14">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">More About Me</h3>
+                        <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-8">
+            <div class="container mx-auto text-center">
+                <ul class="flex justify-center space-x-4 mb-4">
+                    <li><a href="#" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+                <p class="text-sm">&copy; 2024 My Resume | All Rights Reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
