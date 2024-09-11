@@ -6,11 +6,13 @@
         <title>Resume Site</title>
         <!-- Tailwind CSS via CDN -->
         <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Font Awesome CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
-    
+
     <body class="bg-blue-100">
         <!-- NavBar -->
-        <header class="w-full fixed top-0 left-0 bg-white bg-opacity-70 border-b border-gray-300 z-20">
+        <header class="w-full bg-transparent bg-opacity-70 border-b border-gray-300 z-20">
             <nav class="container mx-auto flex justify-center items-center p-4">
                 <!-- Centered Navigation Menu -->
                 <div class="flex justify-center items-center space-x-8">
@@ -25,10 +27,10 @@
 
         <!-- Hero Section -->
         <section class="relative bg-gray-200 h-screen flex flex-col justify-center items-center">
-            <img src="../images/Landing-Hero.jpeg" alt="Profile Picture" class="absolute inset-0 w-full h-full object-cover opacity-50 z-0">
+            <img src="../images/Hero.jpg" alt="Profile Picture" class="absolute inset-0 w-full h-full object-cover opacity-80 z-0">
             <div class="z-10 text-center text-white">
                 <h1 class="text-5xl font-bold">Hello, My Name Is</h1>
-                <h2 class="text-6xl font-bold text-blue-400 mt-2">Emily Anderson</h2>
+                <h2 class="text-6xl font-bold text-blue-400 mt-2">Name Here</h2>
                 <p class="text-xl mt-4">And This Is My Resume</p>
             </div>
         </section>
@@ -77,15 +79,41 @@
 
 
         <!-- Footer -->
-        <footer class="bg-gray-800 text-white py-8">
-            <div class="container mx-auto text-center">
-                <ul class="flex justify-center space-x-4 mb-4">
-                    <li><a href="#" class="hover:text-gray-400">Home</a></li>
-                    <li><a href="#" class="hover:text-gray-400">About</a></li>
-                    <li><a href="#" class="hover:text-gray-400">Projects</a></li>
-                    <li><a href="#" class="hover:text-gray-400">Contact</a></li>
-                </ul>
-                <p class="text-sm">&copy; 2024 My Resume | All Rights Reserved</p>
+        <footer class="w-full bg-gray-800 text-gray-400 py-8">
+            <!-- First Row: Navigation menu and social icons -->
+            <div class="container mx-auto flex justify-between items-center px-4">
+                <!-- Centered Navigation Menu -->
+                <div class="flex justify-center items-center space-x-8">
+                    <a href="#" class="text-gray-400 text-lg font-medium hover:text-gray-200">Home</a>
+                    <a href="#" class="text-gray-400 text-lg font-medium hover:text-gray-200">About</a>
+                    <a href="#" class="text-gray-400 text-lg font-medium hover:text-gray-200">Project</a>
+                    <a href="#" class="text-gray-400 text-lg font-medium hover:text-gray-200">Contact</a>
+                </div>
+                <!-- Social Media Icons -->
+                <div class="flex space-x-4">
+                    <a href="#" class="bg-gray-200 text-gray-600 hover:bg-gray-300 hover:text-gray-800 w-8 h-8 flex items-center justify-center rounded-lg">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="bg-gray-200 text-gray-600 hover:bg-gray-300 hover:text-gray-800 w-8 h-8 flex items-center justify-center p-3 rounded-lg">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="bg-gray-200 text-gray-600 hover:bg-gray-300 hover:text-gray-800 w-8 h-8 flex items-center justify-center p-3 rounded-lg">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="bg-gray-200 text-gray-600 hover:bg-gray-300 hover:text-gray-800 w-8 h-8 flex items-center justify-center p-3 rounded-lg">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="container mx-auto px-4 py-4">
+                <hr class="border-gray-600" />
+            </div>
+
+            <!-- Second Row Copyright-->
+            <div class="container mx-auto text-center text-gray-500 px-4">
+                <p>&copy; 2024 My Resume | All Rights Reserved</p>
             </div>
         </footer>
     </body>
