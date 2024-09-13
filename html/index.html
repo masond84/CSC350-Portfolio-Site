@@ -10,16 +10,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
 
-    <body class="bg-blue-100">
+    <body>
         <!-- NavBar -->
         <header class="w-full bg-transparent bg-opacity-70 border-b border-gray-300 z-20">
             <nav class="container mx-auto flex justify-center items-center p-4">
                 <!-- Centered Navigation Menu -->
                 <div class="flex justify-center items-center space-x-8">
-                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">Home</a>
-                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">About</a>
-                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">Projects</a>
-                    <a href="#" class="text-gray-800 text-lg font-medium hover:text-gray-600">Contact</a>
+                    <a href="index.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">Home</a>
+                    <a href="about.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">About</a>
+                    <a href="projects.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">Projects</a>
+                    <a href="contacts.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">Contact</a>
                 </div>
             </nav>
         </header>
@@ -48,28 +48,28 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                     <!-- Card 1: Resume -->
                     <div class="bg-white p-8 rounded-lg shadow-lg">
-                        <img src="../images/approved.png" alt="Resume Icon" class="mx-auto mb-4 w-14 h-14">
+                        <img src="../images/Icons/resume.svg" alt="Resume Icon" class="mx-auto mb-4 w-14 h-14">
                         <h3 class="text-xl font-bold text-gray-800 mb-2">My Resume</h3>
                         <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
                     </div>
                     
                     <!-- Card 2: LinkedIn -->
                     <div class="bg-white p-8 rounded-lg shadow-lg">
-                        <img src="../images/linkedin.png" alt="LinkedIn Icon" class="mx-auto mb-4 w-14 h-14">
+                        <img src="../images/Icons/linkedin.svg" alt="LinkedIn Icon" class="mx-auto mb-4 w-14 h-14">
                         <h3 class="text-xl font-bold text-gray-800 mb-2">My LinkedIn</h3>
                         <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
                     </div>
                     
                     <!-- Card 3: GitHub -->
                     <div class="bg-white p-8 rounded-lg shadow-lg">
-                        <img src="../images/github.png" alt="GitHub Icon" class="mx-auto mb-4 w-14 h-14">
+                        <img src="../images/Icons/github.svg" alt="GitHub Icon" class="mx-auto mb-4 w-14 h-14">
                         <h3 class="text-xl font-bold text-gray-800 mb-2">My GitHub</h3>
                         <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
                     </div>
                     
                     <!-- Card 4: More About Me -->
                     <div class="bg-white p-8 rounded-lg shadow-lg">
-                        <img src="../images/info.png" alt="More Info Icon" class="mx-auto mb-4 w-14 h-14">
+                        <img src="../images/Icons/more-info.svg" alt="More Info Icon" class="mx-auto mb-4 w-14 h-14">
                         <h3 class="text-xl font-bold text-gray-800 mb-2">More About Me</h3>
                         <a href="#" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 mt-4">View More</a>
                     </div>
@@ -81,7 +81,7 @@
         <!-- Footer -->
         <footer class="w-full bg-gray-800 text-gray-400 py-8">
             <!-- First Row: Navigation menu and social icons -->
-            <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="container mx-auto relative flex items-center justify-center px-4">
                 <!-- Centered Navigation Menu -->
                 <div class="flex justify-center items-center space-x-8">
                     <a href="#" class="text-gray-400 text-lg font-medium hover:text-gray-200">Home</a>
@@ -90,7 +90,7 @@
                     <a href="#" class="text-gray-400 text-lg font-medium hover:text-gray-200">Contact</a>
                 </div>
                 <!-- Social Media Icons -->
-                <div class="flex space-x-4">
+                <div class="absolute right-0 flex space-x-4 pr-20">
                     <a href="#" class="bg-gray-200 text-gray-600 hover:bg-gray-300 hover:text-gray-800 w-8 h-8 flex items-center justify-center rounded-lg">
                         <i class="fab fa-facebook-f"></i>
                     </a>
