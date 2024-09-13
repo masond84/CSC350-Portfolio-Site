@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Site</title>
+        <!-- Tailwind CSS via CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Font Awesome CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <body>
+        <!-- NavBar -->
+        <header class="w-full bg-transparent bg-opacity-70 border-b border-gray-300 z-20">
+            <nav class="container mx-auto flex justify-center items-center p-4">
+                <!-- Centered Navigation Menu -->
+                <div class="flex justify-center items-center space-x-8">
+                    <a href="index.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">Home</a>
+                    <a href="about.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">About</a>
+                    <a href="projects.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">Projects</a>
+                    <a href="contacts.html" class="text-gray-800 text-lg font-medium hover:text-gray-600">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section class="relative w-full h-screen bg-cover bg-center  bg-[url('/images/landing-background.jpg')]">
+            <div class="absolute inset-0 bg-white  opacity-60"></div>
+
+            <!-- Text Content -->
+            <div class="container mx-auto h-full flex flex-col justify-center items-center text-center relative z-10 max-w-2xl">
+                <h1 class="text-5xl font-bold text-[#5D5A88] leading-tight mb-4">
+                    Showcasing My Innovation, One Project at A Time
+                </h1>
+                <p class="text-lg font-medium text-black mb-8 max-w-lg">
+                    Explore a collection of projects that highlight my journey as a developer. From web applications to data-driven solutions, each project is designed with the best practices.
+                </p>
+                <!-- Buttons -->
+                <div class="flex space-x-4">
+                    <a href="#" class="bg-[#5D5A88] text-white font-medium py-3 px-6 rounded-full shadow-lg flex items-center space-x-2 hover:bg-[#4b4873] transition duration-300">
+                        <span>My GitHub</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L13.586 11H3a1 1 0 110-2h10.586l-3.293-3.293a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="#" class="bg-white text-gray-800 font-medium py-3 px-6 rounded-full shadow-lg flex items-center space-x-2 hover:bg-gray-100 transition duration-300">
+                        My Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="py-16 bg-[#222222]">
+            <div class="container mx-auto text-center">
+                <!-- Section Title -->
+                 <h2 class="text-4xl font-bold text-[#5D5A88] mb-4">Browse My Projects</h2>
+            </div>
+        </section>
+
+    </body>
+</html>
