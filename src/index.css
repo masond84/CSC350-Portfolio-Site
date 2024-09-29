@@ -2,4 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
+@keyframes levitate {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .levitating {
+    animation: levitate 3s ease-in-out infinite;
+  }
